@@ -1,0 +1,28 @@
+body{
+    margin: 20px; 
+    border: solid black;
+    
+    outline: 20px;
+    
+}
+
+.white{
+    padding: 10%;
+    background-color: #FFFFFF;
+    width: 100px;
+    text-align: center;
+}
+
+.red{
+    padding: 10%;
+    background-color: #DC143C;
+
+}
+
+body{
+    
+    border: solid black;
+    
+    outline: 20px;
+
+}   

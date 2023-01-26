@@ -1,0 +1,54 @@
+*{
+    background-color: aliceblue;
+    margin: 10px;
+    padding: 0;
+    
+}
+
+h1{
+    text-align: center;
+    padding: 10px;
+    font-weight: bolder;
+
+}
+
+.container{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.bluerow{
+    width: 1380px;
+    height: 225px;
+    background-color: deepskyblue;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+img{
+    height: 205px;
+}
+
+.pinkrow{
+    width: 1380px;
+    height: 225px;
+    background-color: rgb(227, 148, 161);
+    display: flex;
+    justify-content: space-around;
+}
+
+.whiterow{
+    width: 1380px;
+    height: 225px;
+    background-color: white;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer{
+    text-align: center;
+}

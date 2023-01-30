@@ -133,6 +133,11 @@ a{
     padding: 10px;
 }
 
+.education-info, .education-text{
+    padding-left: 10px;
+}
+
+
 /* -------End of block 3 education */
 
 .container-right{

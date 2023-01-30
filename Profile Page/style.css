@@ -67,7 +67,7 @@ a{
 }
 
 
-.user_card{
+.user-card{
     outline: 2px solid grey;
 }
 
@@ -76,7 +76,7 @@ a{
     background-color:#17a2b8;
 }
 
-.profile_pic{
+.profile-pic{
     width: 110px;
     height: 120px;
     padding: 20px;
@@ -84,7 +84,7 @@ a{
     overflow: hidden;
 }
 
-.profile_name{
+.profile-name{
     padding-top: 70px;
     padding-left: 20px;
 }
@@ -95,7 +95,7 @@ a{
     padding-left: 20px;
 }
 
-.map_marker{
+.map-marker{
     width: 15px;
     height: 20px;
     margin-right: 10px;
@@ -133,8 +133,12 @@ a{
     padding: 10px;
 }
 
-.education-info, .education-text{
+.education-info, .education-text, .education-date{
     padding-left: 10px;
+}
+
+.education-date{
+    color: grey;
 }
 
 
@@ -145,7 +149,7 @@ a{
     margin-left: 30px;
 }
 
-.connection_requests{
+.connection-requests{
     outline: 2px solid grey;
     align-items: center;
 }
@@ -162,19 +166,21 @@ a{
     margin-left:10px;
 }
 
-.two_connections{
+.two-connections{
     width: 40px;
     height: 40px;
     background-color: #92989d;
     border-radius: 50%;
+    border: 2px solid grey;
 }
 
-.user_circle{
+.user-circle{
     width: 30px;
     height: 30px;
+    padding-right: 5px;
 }
 
-.column_two_middle, .connection-bottom{
+.column-two-middle, .connection-bottom{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -182,12 +188,14 @@ a{
 }
 
 .user-left, .user-right{
+    display: flex;
     align-items: center;
 }
 
-.accept_button, .deny_button{
+.accept-button, .deny-button{
     height: 25px;
     width: 25px;
+    padding: 5px;
 }
 
 .connection-bottom{
@@ -221,9 +229,9 @@ a{
 .connections-button{
     height: 30px;
     width: 50px;
+    background-color: #92989d;
     border-radius: 50%;
-    background-color: grey;
-    border-radius: 50%;
+    border: 2px solid grey;
 
 
 }

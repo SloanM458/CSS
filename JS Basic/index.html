@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,10 +8,11 @@
     <title>JS Events</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <h1> Hello~!</h1>
 
-    <button onclick="alerting('Hello World')">Click for Alert!</button>
+    <!-- <button onclick="alerting('Hello World')">Click for Alert!</button>
 
     <p onclick="thisEl(this)">Darkrai is the best pokemon!</p>
 
@@ -19,11 +21,18 @@
     <button onclick="turnOff(this)">On</button>
     
     <img src="https://static0.gamerantimages.com/wordpress/wp-content/uploads/2019/09/pokemon-go-darkrai-raid-battle-halloween-2.jpg" 
-    alt="Dark Rai Pokemon" onmouseover="changeImg(this)">
+    alt="Dark Rai Pokemon" onmouseover="changeImg(this)"> -->
+
+    <div id="pokeTeam">
+        <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/565.png" alt="Tirtouga Pokemon" id="pokemon">
+        <p id="pokemonName">Tirtouga</p>
+    </div>
+    <button onclick="evolvePokemon(this)">Evolve Pokemon!</button>
 
 
     <script src="script.js">
 
     </script>
 </body>
+
 </html>

@@ -5,8 +5,12 @@
 
 img{
     width: 200px;
+    display: block; 
+    /* (bc images naturally come as inline) */
 }
 
 img:hover{
     width: 250px;
 }
+
+#pokemon
